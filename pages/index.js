@@ -7,14 +7,14 @@ import Navbar from "./Navbar";
 
 export default function Home() {
   return (
-    <>
+    <div className="">
       <Navbar></Navbar>
       <Banner></Banner>
       <HealthySide></HealthySide>
       <DaysChallange></DaysChallange>
       <BestFood></BestFood>
       <Footer></Footer>
-    </>
+    </div>
 
 
 

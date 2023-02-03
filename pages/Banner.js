@@ -3,9 +3,9 @@ const Banner = () => {
     return (
         <div>
             <div className="hero">
-                <div className="hero-content flex-col lg:gap-8 lg:flex-row-reverse">
+                <div className="hero-content flex-col lg:gap-10 lg:flex-row-reverse">
                     <div>
-                        <img className="w-full text-center" src="https://i.postimg.cc/L8PB6HVc/Group-4227-1.png" alt="" srcset="" />
+                        <img src="https://i.postimg.cc/L8PB6HVc/Group-4227-1.png" alt="" srcset="" />
                     </div>
                     <div className="card w-full max-w-sm">
                         <div className="card-body lg:w-[586px]">

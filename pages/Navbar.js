@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (
-        <div>
-            <div className="navbar bg-base-100">
+        <div className="lg:w-[1246px] m-auto">
+            <div className="navbar">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -15,7 +15,7 @@ const Navbar = () => {
                             <button className="w-[114px] h-[50px] bg-[#264373] text-white font-Poppins rounded-xl shadow-[0px 20px 80px] text-1rem font-normal">Log in</button>
                         </ul>
                     </div>
-                    <button className="w-[56px] h-[33px] bg-[#6765F0] text-white rounded-lg font-Sporting Grotesque text-1rem">Gym</button>
+                    <button className="w-[56px] h-[33px] ml-5 bg-[#6765F0] text-white rounded-lg font-Sporting Grotesque text-1rem">Gym</button>
                     <p className="text-[#6765F0] w-[69px] h-[33px] font-[Sporting Grotesque] ml-1">baran</p>
                 </div>
                 <div className="navbar-end hidden lg:flex">
@@ -24,7 +24,7 @@ const Navbar = () => {
                         <li><a>Program</a></li>
                         <li><a>Blog</a></li>
                         <li><a>About Us</a></li>
-                        <button className="w-[114px] h-[50px] bg-[#264373] text-white font-Poppins rounded-xl shadow-[0px 20px 80px] text-1rem font-normal">Log in</button>
+                        <li><button className="w-[114px] h-[50px] bg-[#264373] text-white font-Poppins rounded-xl shadow-[0px 20px 80px] text-1rem font-normal">Log in</button></li>
                     </ul>
                 </div>
             </div>
