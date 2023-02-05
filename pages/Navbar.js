@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <div className="lg:w-[1246px]">
+        <div className="">
             <div className="navbar bg-no-repeat" style={{ backgroundImage: `url("https://i.postimg.cc/52QgZm4M/bg.png")` }}>
                 <div className="navbar-start">
                     <button className="w-[56px] h-[33px] bg-[#6765F0] text-white rounded-lg font-Sporting Grotesque text-1rem">Gym</button>

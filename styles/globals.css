@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.cdnfonts.com/css/sporting-grotesque');
+@import url('https://fonts.cdnfonts.com/css/poppins');
 
-.font {
+.font-family {
   font-family: 'Sporting Grotesque', sans-serif;
+}
+
+.font-text {
+  font-family: 'Poppins', sans-serif;
 }
 
 :root {

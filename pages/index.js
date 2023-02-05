@@ -7,7 +7,7 @@ import Navbar from "./Navbar";
 
 export default function Home() {
   return (
-    <div >
+    <div>
       <Navbar></Navbar>
       <Banner></Banner>
       <HealthySide></HealthySide>

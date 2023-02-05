@@ -9,24 +9,22 @@ const Footer = () => {
                     <p>We take care of your health with <br /> regular and fun exercise</p>
                 </div>
                 <div>
-                    <span className="footer-title">Services</span>
-                    <a className="link link-hover">Branding</a>
-                    <a className="link link-hover">Design</a>
-                    <a className="link link-hover">Marketing</a>
-                    <a className="link link-hover">Advertisement</a>
+                    <span className="footer-title">Program</span>
+                    <a className="link link-hover opacity-50">Workout</a>
+                    <a className="link link-hover opacity-50">Gym</a>
+                    <a className="link link-hover opacity-50">Cardio</a>
+                    <a className="link link-hover opacity-50">Zumba</a>
                 </div>
                 <div>
-                    <span className="footer-title">Company</span>
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
-                    <a className="link link-hover">Jobs</a>
-                    <a className="link link-hover">Press kit</a>
+                    <span className="footer-title">Blog</span>
+                    <a className="link link-hover opacity-50">Daily stretch</a>
+                    <a className="link link-hover opacity-50">Daily workout</a>
                 </div>
                 <div>
-                    <span className="footer-title">Legal</span>
-                    <a className="link link-hover">Terms of use</a>
-                    <a className="link link-hover">Privacy policy</a>
-                    <a className="link link-hover">Cookie policy</a>
+                    <span className="footer-title font-bold">About Us</span>
+                    <a className="link link-hover opacity-50">Support</a>
+                    <a className="link link-hover opacity-50">Contact</a>
+                    <a className="link link-hover opacity-50">Address</a>
                 </div>
             </footer>
         </div>
