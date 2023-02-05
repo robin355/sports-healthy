@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.cdnfonts.com/css/sporting-grotesque');
+
+.font {
+  font-family: 'Sporting Grotesque', sans-serif;
+}
 
 :root {
   --max-width: 1100px;
@@ -84,6 +89,10 @@ body {
   background: linear-gradient(to bottom,
       transparent,
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.card-body {
+  padding: 0;
 }
 
 a {
