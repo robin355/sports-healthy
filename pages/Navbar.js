@@ -1,15 +1,18 @@
 const Navbar = () => {
     return (
         <div className="lg:pl-10 lg:pr-10">
-            <div className="navbar  bg-no-repeat" style={{ backgroundImage: `url("https://i.postimg.cc/52QgZm4M/bg.png")` }}>
-                <div className="navbar-start justify-between">
-                    <div className="">
-                        <button className="w-[56px] h-[33px] flex gap-3 bg-[#6765F0] text-white rounded-lg font-Sporting Grotesque text-1rem">Gym
-                            <p className="text-[#6765F0] w-[69px] h-[33px] font-[Sporting Grotesque] ml-1">baran</p></button>
-
+            <div className="navbar flex  justify-between bg-no-repeat" style={{ backgroundImage: `url("https://i.postimg.cc/52QgZm4M/bg.png")` }}>
+                <div className="navbar-start w-full justify-between">
+                    <div className="flex gap-3 text-white">
+                        <div>
+                            <p className="w-[56px] h-[33px] font-family bg-[#6765F0] rounded-lg pl-1 text-1rem">Gym</p>
+                        </div>
+                        <div>
+                            <p className="text-[#6765F0] font-family w-[69px] h-[33px]">baran</p>
+                        </div>
                     </div>
                     <div className="dropdown">
-                        <label tabIndex={0} className="btn btn-ghost ml-[220px] lg:hidden">
+                        <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">

@@ -10,7 +10,7 @@ const Banner = () => {
                         <div className="card-body">
                             <h2 className="font-bold text-4xl font-family tracking-wide">Healthy in side <br /> <span className="text-[#6765F0]">fresh</span> out side</h2>
                             <p className="mt-3 text-base font-text opacity-60">Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.</p>
-                            <div className="flex gap-5  lg:mt-3">
+                            <div className="flex gap-3  lg:mt-3">
                                 <div>
                                     <button className="w-[176px] h-[56px] bg-[#264373]  rounded-xl flex items-center justify-around text-white shadow-[0px 20px 80px]">Get Started
                                         <img src="https://i.postimg.cc/GpqxPVDz/Vector.png" alt="" /></button>
