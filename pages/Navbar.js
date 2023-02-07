@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (
-        <div className="lg:pl-10 lg:pr-10">
-            <div className="navbar flex  justify-between bg-no-repeat" style={{ backgroundImage: `url("https://i.postimg.cc/52QgZm4M/bg.png")` }}>
+        <div className="lg:pl-10 lg:pr-10 bg-[#FFFFFF] lg:bg-[#E5E5E5]">
+            <div className="navbar flex  justify-between ">
                 <div className="navbar-start w-full justify-between">
                     <div className="flex gap-3 text-white">
                         <div>
